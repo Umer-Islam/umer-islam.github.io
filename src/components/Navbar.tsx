@@ -46,7 +46,7 @@ export default function Navbar() {
                     Guestbook
                   </Link>
                   <Link
-                    href="/projects"
+                    href="/portfolio"
                     prefetch
                     className={`${
                       pathname === "/portfolio"
