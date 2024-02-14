@@ -12,7 +12,7 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justfiy-between h-16">
+            <div className="flex justify-between h-16">
               <div className="flex justify-between w-full">
                 <div className="flex items-center">
                   <Link href="/">
@@ -34,7 +34,7 @@ export default function Navbar() {
                   >
                     Home
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/guestbook"
                     prefetch
                     className={`${
@@ -44,7 +44,7 @@ export default function Navbar() {
                     }`}
                   >
                     Guestbook
-                  </Link>
+                  </Link> */}
                   <Link
                     href="/portfolio"
                     prefetch
@@ -112,7 +112,7 @@ export default function Navbar() {
               >
                 Home
               </Link>
-              <Link
+              {/* <Link
                 href="/guestbook"
                 prefetch
                 className={`${
@@ -122,7 +122,7 @@ export default function Navbar() {
                 } `}
               >
                 Guestbook
-              </Link>
+              </Link> */}
               <Link
                 href="/portfolio"
                 prefetch
