@@ -1,6 +1,6 @@
-/
-  @type {import('next').NextConfig}
- 
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
   output: 'export',
  
@@ -10,7 +10,7 @@ const nextConfig = {
   // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
   // skipTrailingSlashRedirect: true,
  
-   Optional: Change the output directory `out` -> `dist`
+  // Optional: Change the output directory `out` -> `dist`
    distDir: 'dist',
 }
  
