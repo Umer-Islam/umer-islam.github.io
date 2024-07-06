@@ -2,14 +2,17 @@
 
 import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from "./ui/dropdown-menu"
 import {useTheme} from "next-themes";
+
+import{MoonIcon , SunIcon } from "@radix-ui/react-icons";
+
 export default function  ThemeToggler(){
-    const {setTheme} = useTheme();
+    const {setTheme,resolvedTheme} = useTheme();
 return(
 
     <>
        <DropdownMenu>
-          <DropdownMenuTrigger className="outline-none">Theme
-
+          <DropdownMenuTrigger className="outline-none">
+              {resolvedTheme ==="light" ? <SunIcon/> : <MoonIcon/>}
           </DropdownMenuTrigger>
  <DropdownMenuContent>
 
