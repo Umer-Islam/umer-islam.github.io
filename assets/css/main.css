@@ -195,7 +195,7 @@ body,
 input,
 select,
 textarea {
-  color: #888;
+  color: black;
   font-family: "Lato", sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -219,7 +219,7 @@ a:hover {
 
 strong,
 b {
-  color: #777;
+  color: black;
   font-weight: 700;
 }
 
@@ -238,7 +238,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #777;
+  color: black;
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0;
@@ -1856,7 +1856,7 @@ article.special {
 }
 
 header p {
-  color: #aaa;
+  color: black;
   position: relative;
   margin: 0 0 1.6875em 0;
 }
@@ -1900,7 +1900,7 @@ form {
 }
 
 label {
-  color: #777;
+  color: black;
   display: block;
   font-size: 0.9em;
   font-weight: 700;
@@ -1999,7 +1999,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #888;
+  color: black;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
