@@ -6,7 +6,7 @@ async function getJoke() {
       console.log(data)
       jokeElement.textContent = `${data[0].setup} - ${data[0].punchline}`;
     } catch (error) {
-      jokeElement.textContent = '';
+      jokeElement.textContent = 'Where did the API go to eat? - To the RESTaurant.';
       console.error('Error fetching joke:', error);
     }
   }
